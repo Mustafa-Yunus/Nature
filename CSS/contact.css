@@ -1,0 +1,178 @@
+/* Start Contact Section */
+#contact {
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../Images/contact-hero-1.jpg) center center no-repeat;
+}
+
+#contact .container .landing {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact .container .landing h1 {
+  font-size: 76px;
+  font-weight: 400;
+  line-height: 107px;
+  text-align: center;
+  font-family: "Dm Sans", sans-serif;
+}
+/* End Contact Section */
+
+/* Start Contact Form Section */
+#contact-form .container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8rem;
+  min-height: 70%;
+}
+#contact-form .container .content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#contact-form .container .content h4 {
+  font-family: "forum", serif;
+  color: #536942;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+#contact-form .container .content .phone span,
+.mail span,
+.location span {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  color: #758666;
+}
+#contact-form .container .content .phone p,
+.mail p,
+.location p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #536942;
+}
+#contact-form .container .content .phone {
+  margin-block: 30px;
+}
+#contact-form .container .icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+#contact-form .container .icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #c0c8b9;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+#contact-form .container .icons i:hover {
+  background-color: #647855;
+}
+#contact-form .container .form-container {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#contact-form .container .form-container h4 {
+  font-family: "Forum", serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 48px;
+  color: #536942;
+  margin-bottom: 50px;
+}
+#contact-form .container .form-container form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+#contact-form .container .form-container form input,
+#contact-form .container .form-container textarea {
+  font-family: "DM Sans", sans-serif;
+  line-height: 27.2px;
+  width: 100%;
+  height: 52px;
+  border-bottom: 1px solid #bababa;
+  color: #536942;
+  padding: 12px;
+  transition: border-color 0.3s;
+  caret-color: #536942;
+}
+#contact-form .container .form-container textarea {
+  height: 140px;
+}
+#contact-form .container .form-container form button {
+  color: #4d613d;
+  padding: 15px 34px;
+  font-size: 15px;
+  text-align: center;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: #ffd936;
+}
+#contact-form .container .form-container form button:hover {
+  background-color: #dab200;
+}
+#contact-form .container .form-container form input:focus,
+textarea:focus {
+  border-color: #ffd936;
+}
+#contact-form .container .form-container input::placeholder,
+#contact-form .container .form-container textarea::placeholder {
+  color: #bababa;
+  transition: color 0.3s;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #767676;
+}
+/* End Contact Form Section */
+
+/* Start Cards Section */
+#cards {
+  background-color: #f6f8f5;
+  min-height: 65vh;
+}
+#cards .container {
+  width: 70%;
+  padding-block: 4rem;
+}
+#cards .container h4 {
+  font-family: "Forum", serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 44px;
+  text-align: center;
+  color: #536942;
+}
+#cards .container .images-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2.5rem;
+  gap: 2.5rem;
+}
+#cards .container .images-cards .image {
+  width: 25%;
+}
+/* End Cards Section */

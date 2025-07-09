@@ -1,0 +1,195 @@
+/* Start Home section */
+#home {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Images/header-hero.jpg) center center no-repeat;
+}
+
+/* Start Landing Section */
+#home .container .landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+#home .container .landing .landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+#home .container .landing .landing-container .landing-text h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+#home .container .landing .landing-container .landing-text .nature {
+  font-size: 117px;
+  font-weight: 400;
+  line-height: 100px;
+  letter-spacing: 2px;
+}
+#home .container .landing .landing-container .landing-text p {
+  line-height: 24px;
+  width: 70%;
+  margin: 20px auto;
+}
+#home .container .landing .landing-container .landing-text button {
+  background-color: #ffd936;
+  padding: 17px 40px;
+  font-size: 14px;
+  color: #536942;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+/* End Landing Section */
+/* End Home section */
+
+/* Start Services Section */
+#services {
+  min-height: 100vh;
+}
+#services .container .Main-title {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 52px;
+  color: #536942;
+  position: relative;
+  padding-bottom: 10px;
+}
+#services .container .Main-title::after {
+  content: "";
+  width: 80%;
+  height: 2.4px;
+  background-color: #ffd936;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#services .container .services-items {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+#services .container .services-items .item {
+  width: calc((100% - 4rem) / 3);
+  vertical-align: center;
+}
+#services .container .item-content {
+  padding: 6px 10px 0 10px;
+}
+#services .container .item-content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-block: 20px 9px;
+  line-height: 26px;
+  color: #536942;
+}
+#services .container .item-content p {
+  font-weight: 400;
+  line-height: 27.5px;
+  color: #858e70;
+  width: 80%;
+}
+/* End Services Section */
+
+/* Start About section */
+#about .container {
+  display: flex;
+  flex: wrab;
+  justify-content: space-between;
+}
+#about .container .content .active {
+  line-height: 25px;
+  color: #758767;
+  margin-top: 5px;
+  background-color: #ffd936;
+  width: max-content;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+#about .container .content h4 {
+  font-family: "Forum", serif;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  line-height: 40px;
+  color: #536942;
+  width: 50%;
+}
+#about .container .content p {
+  line-height: 26px;
+  color: #758767;
+  margin-block: 30px;
+  width: 60%;
+}
+#about .container .content button {
+  border: 1px solid #536942;
+  padding: 15px 30px;
+  font-size: 14px;
+  text-align: center;
+  background: transparent;
+  border-radius: 5px;
+  color: #536942;
+  transition: color 0.3s, border-color 0.3s;
+}
+#about .container .content {
+  width: 50%;
+}
+#about .container .about-img {
+  width: 32%;
+}
+/* About Action */
+#about .container .content button:hover {
+  color: #9fce00;
+  border-color: #9fce00;
+}
+/* End About section */
+
+/* Start Question section */
+#questions {
+  padding-block: 100px;
+  background-color: #f6f8f5;
+}
+#questions .container {
+  text-align: center;
+}
+#questions .container h1 {
+  font-size: 58px;
+  letter-spacing: -2px;
+  line-height: 81.2px;
+  color: #536942;
+  font-weight: 400;
+}
+#questions .container p {
+  font-size: 17px;
+  line-height: 32px;
+  color: #536942;
+  padding-block: 30px;
+  padding-inline: 336px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#questions .container button {
+  color: #7d8e70;
+  background-color: #ffd936;
+  padding: 17px 40px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+/* End Question section */
